@@ -6,7 +6,7 @@ rm -f /myapp/tmp/pids/server.pid
 
 # Check if rails app exists yet
 if [ ! -d "/myapp/app" ]; then
-    rails new . --skip-gemfile --skip-git --database=postgresql
+    rails new . --skip-gemfile --skip-git --database=postgresql &&
     cp /myapp/init/database.yml /myapp/config/database.yml
 fi
 
