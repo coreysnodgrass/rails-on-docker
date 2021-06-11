@@ -40,6 +40,7 @@ This startup application can get you running with Ruby on rails quickly
 ## Resolutions for getting out of a pickle
 * `docker volume ls`
 * `docker volume prune` - **DANGER** Prune all Docker volumes
+* `docker rmi $(docker images -a -q)`  - **DANGER** Prune all Docker images
 * `docker volme rm {vol_name}`
 
 ## Attaching for byebug debugging
