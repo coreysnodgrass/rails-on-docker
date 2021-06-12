@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 FROM ruby:2.5.8
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client libmagickwand-dev tesseract-ocr
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client libmagickwand-dev
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
