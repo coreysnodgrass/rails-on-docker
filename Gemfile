@@ -40,11 +40,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'bootstrap', '~> 5.0.1'
 #Tesseract
-gem 'rtesseract'
+#gem 'rtesseract'
 #Resque
-gem 'resque'
+#gem 'resque'
 #RMagick
-gem 'rmagick'
+#gem 'rmagick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
