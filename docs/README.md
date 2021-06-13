@@ -1,17 +1,21 @@
-# Dockerized Ruby
-This startup application can get you running with Ruby on rails quickly
+# Ruby on Rails with Docker Compose
+This startup application can get you running with Ruby on rails quickly. One command and you're ready to run!
 
 # Getting Started
 * Install [Docker](https://www.docker.com/)
-* Point Command Line to receipt-processor folder
-* Run `docker compose up -d`
-* Database config is in `docker-compose.yml`
-* Point browser at http://localhost:3000
-* Database GUI located at http://localhost:8000
+* Open your favorite Command Line Interface at this folder
+* Execute command - `docker compose up -d`
+
+# Web Locations
+* Rails app - http://localhost:3000
+* PgAdmin GUI (database) - http://localhost:8000
+
+# Settings
+* PgAdmin Login - `docker-compose.yml`
+* Ruby Database config - `init/database.yml`
 
 
 # Commands
-
 ## Open Terminal inside Docker
 * `docker compose exec web /bin/bash` - When container is not started
 * `docker exec -it receipt-processor_web_1 bash` - When container is started
